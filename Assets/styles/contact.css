@@ -16,8 +16,9 @@
 }
 .introduction img{
     width: 250px;
-    height: auto;
+    height: 300px;
     filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
+    border-radius: 10px;
 }
 .introduction img:hover{
      transform: scale(1.03);
@@ -33,6 +34,7 @@ form{
     flex-direction: column;
     line-height: 40px;
     margin-bottom: 20px;
+    margin-left: 200px;
 }
 #d1, #d2{
     border: 2px solid  rgb(95, 105, 210);
@@ -55,7 +57,7 @@ form{
     border-radius: 10px;
     width: 175px;
     box-shadow: 0px 4px 10px black ;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 #d4:hover{
     color: black;
