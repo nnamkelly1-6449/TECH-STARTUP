@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -5,19 +6,27 @@
 .introduction{
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+    margin-left: 250px;
     margin-right: 300px;
+    margin-top: 25px;
 }
 .introduction h2{
     margin-top: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .introduction img{
-    width: 300px;
+    width: 250px;
     height: auto;
+    filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
+}
+.introduction img:hover{
+     transform: scale(1.03);
 }
 .highlight{
-    color: rgb(95, 105, 210);
+    color: rgb(24, 42, 230);
+}
+.highlight:hover{
+     transform: scale(1.03);
 }
 form{
     display: flex;
@@ -45,5 +54,146 @@ form{
     padding: 10px;
     border-radius: 10px;
     width: 175px;
+    box-shadow: 0px 4px 10px black ;
     margin-left: 150px;
+}
+#d4:hover{
+    color: black;
+    background-color: white;
+}
+.office{
+ display: flex;
+ justify-content:right;
+ gap: 50px;
+ margin-right: 150px;
+ margin-top: 0;
+}  
+=======
+:root {
+    --primary-color: #3e04aa;
+    --hover: #555;
+    --background-color: #f1f1f1;
+    --color: black white;
+
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.sidebar a.active {
+    background-color: #3e04aa;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+
+ul .logo {
+    font-size: 80px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-weight: 900;
+}
+
+ul .btn {
+    background-color: #3e04aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 40px
+}
+
+ul .btn:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+span {
+    color: #3e04aa;
+}
+
+footer {
+    margin-top: 100px;
+
+    /* display: flex; */
+    background-color: #f1f1f1;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    /* margin-left: 800px; */
+    color: black;
+    text-decoration: none;
+}
+
+footer p:hover {
+    color: #3e04aa;
+}
+
+footer p {
+    /* margin-left: 80px; */
+    color: black;
+}
+
+footer p:hover {
+    color: #3e04aa;
+>>>>>>> 6b3443a82a2f6b3efb68690b46bf6802b5cc0243
 }
