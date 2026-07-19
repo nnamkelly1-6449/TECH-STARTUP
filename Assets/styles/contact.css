@@ -1,3 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 25px;
+}
+.introduction h2{
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.introduction img{
+    width: 250px;
+    height: 300px;
+    filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
+    border-radius: 10px;
+}
+.introduction img:hover{
+     transform: scale(1.03);
+}
+.highlight{
+    color: rgb(24, 42, 230);
+}
+.highlight:hover{
+     transform: scale(1.03);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+#d1, #d2{
+    border: 2px solid  rgb(95, 105, 210);
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+#d3{
+    border: 2px solid  rgb(95, 105, 210);
+    width: 300px;
+    padding: 20%;
+    border-radius: 20px;
+}
+#d4{
+    margin-top: 30px;
+    color: rgb(243, 236, 236);
+    background-color:rgb(151, 157, 227);
+    padding: 10px;
+    border-radius: 10px;
+    width: 175px;
+    box-shadow: 0px 4px 10px black ;
+    margin-left: 200px;
+}
+#d4:hover{
+    color: black;
+    background-color: white;
+}
+.office{
+ display: flex;
+ justify-content:right;
+ gap: 50px;
+ margin-right: 150px;
+ margin-top: 0;
+}  
 :root {
     --primary-color: #3e04aa;
     --hover: #555;
@@ -123,5 +194,5 @@ footer p {
 }
 
 footer p:hover {
-    color: #3e04aa;
+  color: #3e04aa;
 }
