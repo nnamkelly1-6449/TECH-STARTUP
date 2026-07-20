@@ -17,14 +17,15 @@
 }
 
 .introduction img {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
     border-radius: 10px;
+    margin-top: 40px;
 }
 
 .introduction img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .highlight {
@@ -80,8 +81,11 @@ form {
     justify-content: right;
     gap: 50px;
     margin-right: 150px;
-    margin-top: 0;
+
 }
+
+
+
 
 :root {
     --primary-color: #3e04aa;
