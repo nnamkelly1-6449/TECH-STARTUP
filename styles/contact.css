@@ -7,41 +7,41 @@
     display: flex;
     justify-content: space-between;
     margin-left: 250px;
-    margin-right: 300px;
-    margin-top: 25px;
+    margin-right: 100px;
 }
 
 .introduction h2 {
     margin-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
 }
 
-.introduction img {
-    width: 350px;
-    height: 400px;
-    filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
-    border-radius: 10px;
-    margin-top: 40px;
-}
+
 
 .introduction img:hover {
     transform: scale(1.05);
 }
 
 .highlight {
-    color: rgb(24, 42, 230);
+    color: #3e04aa;
 }
 
 .highlight:hover {
     transform: scale(1.03);
 }
 
+
+.introduction p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
 form {
     display: flex;
     flex-direction: column;
     line-height: 40px;
-    margin-bottom: 20px;
-    margin-left: 200px;
+    margin-bottom: 30px;
+
 }
 
 #d1,
@@ -76,14 +76,33 @@ form {
     background-color: white;
 }
 
+.office img {
+    width: 350px;
+    height: 400px;
+    filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
 .office {
     display: flex;
-    justify-content: right;
-    gap: 50px;
-    margin-right: 150px;
+    columns: 3;
+    gap: 4rem;
+}
+
+.office1 {
+    margin-top: 200px;
 
 }
 
+.office2 {
+    margin-top: 200px;
+
+}
+
+.office p {
+    font-size: 30px;
+}
 
 
 
