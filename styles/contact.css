@@ -16,7 +16,13 @@
     font-size: 35px;
 }
 
-
+.introduction img {
+    width: 350px;
+    height: 400px;
+    filter: drop-shadow(0 5px 10px rgb(83, 64, 64));
+    border-radius: 10px;
+    margin-top: 40px;
+}
 
 .introduction img:hover {
     transform: scale(1.05);
@@ -86,23 +92,12 @@ form {
 
 .office {
     display: flex;
-    columns: 3;
-    gap: 4rem;
-}
-
-.office1 {
-    margin-top: 200px;
+    justify-content: right;
+    gap: 50px;
+    margin-right: 150px;
 
 }
 
-.office2 {
-    margin-top: 200px;
-
-}
-
-.office p {
-    font-size: 30px;
-}
 
 
 

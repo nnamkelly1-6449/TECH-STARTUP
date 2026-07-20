@@ -279,20 +279,3 @@ h2:hover {
     height: 20px;
     width: 20px;
 }
-
-.project-card button {
-    color: black;
-    border-color: #3e04aa;
-    border-radius: 8px;
-    margin: 8px;
-    border: none;
-    cursor: pointer;
-    margin-left: 100px;
-    margin-bottom: 1.5px;
-    height: 30px;
-    width: 80px;
-}
-
-.project-card button:hover {
-    color: #3e04aa;
-}
