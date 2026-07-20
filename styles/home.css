@@ -6,9 +6,6 @@
 
 }
 
-body {
-  background: linear-gradient(#1B143F, #00F0FF, #FF007A);
-}
 
 @media screen and (max-width: 700px) {
   .sidebar {
